@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UFT-8">
+    <meta name="view point" content="width=device-width, initial-scale=1.0>" <title>MY FIRST PROGRAM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <textarea id="ta"></textarea>
+    <p id="par"></p>
+    <button onclick="fn()">Display Value</button>
+</body>
+
+</html>
+
+
+<body>
+
+    <nav>
+        <div>HOME</div>
+        <div>MY PROJECT</div>
+        <div>CONTACT ME</div>
+    </nav>
+    <main>
+        <div class="profile">
+            <centre>
+                <img src="C:\Users\HP\OneDrive\画像\Screenshots\Screenshot 2024-08-08 220247.png" alt="profile picture"
+                    width="200" style=" border-radius:50% ;width:  200px;height:  200px;">
+            </centre>
+        </div>
+        <div>
+            <centre>
+                <h1>MEERA KRISHNA S</h1>
+            </centre>
+        </div>
+        <div>
+            <h3>ABOUT ME</h3>
+        </div>
+        <p>I am Meera krishna S a friendly and approchable individual with a passion for technical activities
+            .I enjoy for learning new things, exploring new ideas ,and connecting with others.With a strong baackground
+            in many thing.I am always looking for ways to grow and make a positive impact. </p>
+        <section class="CONTACT">
+            <div>
+                <input type="email" id="mail" placeholder="Enter Your Email ">
+                <button onclick="sendEmail()">Click for Connecting </button>
+            </div>
+        </section>
+        <article>
+            <img src="C:\Users\HP\OneDrive\画像\Screenshots\Screenshot 2024-08-09 095027.png" alt="">
+            <header>
+                <h3>BOOKS</h3>
+            </header>
+        </article>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="https://instagram.com"><img
+                    src="C:\Users\HP\OneDrive\画像\Screenshots\Screenshot 2024-08-08 231714.png" alt="instagram"
+                    width="60"></a>
+            <a href="https://facebook.com"><img
+                    src="C:\Users\HP\OneDrive\画像\Screenshots\Screenshot 2024-08-08 231828.png" alt="facebook"
+                    width="60"></a>
+            <a href="https://linkedin.com"><img
+                    src="C:\Users\HP\OneDrive\画像\Screenshots\Screenshot 2024-08-08 231917.png" alt="linkedin"
+                    width="60"></a>
+            <a href="https://wa.me/"><img src="C:\Users\HP\OneDrive\画像\Screenshots\Screenshot 2024-08-08 231753.png"
+                    alt="whatsapp" width="60"></a>
+    </footer>
+        <script type="text/javascript">
+            function sendEmail() {
+                var email = document.getElementById("mail").value;
+                var subject = "Request to connect-reg.";
+                var body = "Hello, I would like to connect with you.";
+                window.location.href = "mailto:" +encodeURIcomponent(email) +"?subject=" + encodeURIcomponent(subject) + "
+                    &body=" +encodeURIcomponent(body) + "&cc=smeerakrishna2@gmail.com";
+            }
+            </script>
+</body>
+</html>
+        
